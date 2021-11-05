@@ -1,0 +1,83 @@
+.login-wrapper{
+    height: 75vh;
+
+
+    .login-heading{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .login{
+            h3{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .form-group-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+        
+        .form-group{
+            padding: .5rem;
+
+            input{
+                font-size: 1.5em;
+                font-family: inherit;
+                color: inherit;
+                padding: 10px;
+                border-radius: 2px;
+                border-bottom: 3px solid rgb(128, 58, 0);
+                display: block;
+                transition: all .3s;
+            }
+            
+        }
+    }
+
+    .login-button-wrapper{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        .login-button{
+            button{
+                font-size: 1.3em;
+                font-family: inherit;
+                color: inherit;
+                padding: 10px;
+                border-radius: 2px;
+                border-bottom: 3px solid rgb(128, 58, 0);
+                display: block;
+                transition: all .3s;
+            }
+        }
+    }
+        
+        
+
+    .hyper-links{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .return-to-store{
+        height: 4vh;
+
+    }
+
+    .create-account{
+        height: 4vh;
+    }
+
+    .forgot-password{
+        height: 4vh;
+    }
+
+}
