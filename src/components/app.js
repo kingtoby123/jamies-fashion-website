@@ -12,6 +12,10 @@ import Navigation from './navigation/navigation';
 import Footer from './navigation/footer';
 import ForgotPassword from './pages/forgot-password';
 
+
+
+
+
 export default class App extends Component {
   render() {
     return (
@@ -34,8 +38,14 @@ export default class App extends Component {
             </Switch>
             <Footer/>
           </Router>
+
         
       </div>
+
+        
     );
   }
 }
+
+
+
