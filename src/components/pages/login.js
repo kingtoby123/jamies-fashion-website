@@ -58,7 +58,7 @@ export default class Login extends Component {
                 <div className="login-button-wrapper">
 
                     <div className="login-button">
-                        <button className = "button" type = "submit" disabled = {this.state.loading}>Sign Up </button>
+                        <button className = "button" type = "submit" disabled = {this.state.loading}>Sign In </button>
                     </div>
                     
                 </div>
