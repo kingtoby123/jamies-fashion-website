@@ -1,0 +1,27 @@
+.navigation-menu{
+    display: inline-block;
+    cursor: pointer;
+    
+    .bar1, .bar2, .bar3 {
+        
+        width: 35px;
+        height: 5px;
+        background-color: rgb(233, 103, 103);
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    
+    .navigation-menu .bar1 {
+        -webkit-transform: rotate(-25deg) translate(-1px, 6px) ;
+        transform: rotate(-25deg) translate(-5px, 6px) ;
+    }
+    
+    .navigation-menu .bar2 {
+        opacity: 0;
+    }
+    
+    .navigation-menu .bar3 {
+        -webkit-transform: rotate(45deg) translate(-3px, -7px) ;
+        transform: rotate(45deg) translate(-3px, -2px) ;
+    }
+}

@@ -7,8 +7,9 @@ import Login from './pages/login'
 import Shop from './pages/shop';
 import About from './pages/about';
 import CreateAccount from './pages/create-account';
+import DropDownMenu from './navigation/dropDownMenu';
 
-import Navigation from './navigation/navigation';
+// import Navigation from './navigation/navigation';
 import Footer from './navigation/footer';
 import ForgotPassword from './pages/forgot-password';
 
@@ -22,7 +23,7 @@ export default class App extends Component {
       <div className='app'>
 
           <Router>
-            <Navigation/>
+            <DropDownMenu/>
             <Switch>
               <Route exact path="/" component={Home} />
 
