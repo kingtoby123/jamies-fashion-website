@@ -9,6 +9,8 @@ import About from './pages/about';
 import CreateAccount from './pages/create-account';
 import DropDownMenu from './navigation/dropDownMenu';
 
+import Navigation from './navigation/navigation';
+
 // import Navigation from './navigation/navigation';
 import Footer from './navigation/footer';
 import ForgotPassword from './pages/forgot-password';
@@ -24,6 +26,7 @@ export default class App extends Component {
 
           <Router>
             <DropDownMenu/>
+            <Navigation/>
             <Switch>
               <Route exact path="/" component={Home} />
 
