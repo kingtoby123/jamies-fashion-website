@@ -1,0 +1,28 @@
+.about-wrapper{
+    display: flex;
+
+    .image{
+
+        img{
+            width: 500px;
+            height: 600px;
+        }
+
+    }
+
+    .about-content{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        // .heading{
+
+
+        // }
+
+        // .text{
+
+        // }
+
+    }
+
+}
