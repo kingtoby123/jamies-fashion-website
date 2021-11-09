@@ -19,6 +19,8 @@ export default function contact (props) {
     return (
         <div className="contact-wrapper">
 
+           
+
             <div className="contact-area-wrapper">
 
                 <div className="contact-area-heading">
@@ -50,6 +52,7 @@ export default function contact (props) {
 
 
                   <div className="my-information">
+                      
 
                       <div className="email">
                           <h3>Email</h3>

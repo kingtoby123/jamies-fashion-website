@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from '../../../static/assets/img/about/AboutMe.jpg'
+import AboutMe2 from '../../../static/assets/img/about/AboutMe2.jpg'
 
 export default function about(props) {
     return (
@@ -8,6 +9,7 @@ export default function about(props) {
             <div className="image">
                 <img src={AboutMe} alt="About Me Img" />
             </div>
+
 
             <div className="about-content">
                 <div className="heading">
@@ -24,6 +26,9 @@ export default function about(props) {
                 </div>
             </div>
 
+            <div className="image">
+                <img src={AboutMe2} alt="About Me Img" />
+            </div>
             
         </div>
     )
