@@ -191,12 +191,12 @@ export default class Shop extends Component {
 
 
                     </div>
-                    <div className="fashion-picture-thirtyysix">
+                    <div className="fashion-picture-thirtysix">
                             <img src={AboutMe} alt="About Me Img" />
 
 
                     </div>
-                    <div className="fashion-picture-thirtyyseven">
+                    <div className="fashion-picture-thirtyseven">
                             <img src={AboutMe} alt="About Me Img" />
 
 
